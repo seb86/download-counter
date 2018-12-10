@@ -10,9 +10,11 @@ This script is a replica of the [WordPress.org download counter](https://wordpre
 
 The script can be forked and changed to any plugin on the WordPress.org repository.
 
-Two variables are all that are required to change for your own.
-
 > _The script is currently set to my [Auto Load Next Post](https://wordpress.org/plugins/auto-load-next-post/) plugin._
+
+#### 🔧 Variables
+
+Two variables are all that are required to change for your own plugin download counter.
 
 Plugin slug: `$plugin_slug = 'auto-load-next-post'`
 
