@@ -93,7 +93,7 @@ $downloads = json_decode($stats, true);
 		border: 1px solid #e5e5e5;
 		-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
 		box-shadow: 0 1px 1px rgba(0,0,0,0.04);
-		background: #fff;
+		background-color: #fff;
 		margin: 0 4%;
 		padding: 6% 10%;
 	}
@@ -146,6 +146,23 @@ $downloads = json_decode($stats, true);
 		}
 		.counter-inner {
 			padding: 4% 10%;
+		}
+	}
+
+	/* Dark Mode */
+	@media (prefers-color-scheme: dark) {
+		body {
+			background-color: #222;
+			color: #fff;
+		}
+
+		.counter-inner {
+			background-color: #1a1a1a;
+			border: 1px solid #00d573;
+		}
+
+		a, #numnumnum, #numnumnum2 {
+			color: #00d573;
 		}
 	}
 	</style>
