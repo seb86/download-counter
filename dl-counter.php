@@ -10,7 +10,9 @@ function get_data($url) {
 	return $data;
 }
 
-$stats = get_data('https://api.wordpress.org/plugins/info/1.0/auto-load-next-post.json');
+$plugin_slug = 'auto-load-next-post';
+
+$stats = get_data('https://api.wordpress.org/plugins/info/1.0/' . $plugin_slug . '.json');
 
 $downloads = json_decode($stats, true);
 
